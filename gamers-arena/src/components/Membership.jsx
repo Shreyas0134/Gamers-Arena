@@ -7,7 +7,7 @@ const Membership = () => {
   return (
     <div>
       <div className='max-w-[1920px] mx-auto relative'>
-        <img src={mem} />
+        <img src={mem} alt='' />
         <div className='  w-full mx-auto text-center justify-center flex flex-col absolute top-0 mt-[8%] text-white '>
           <p className='  text-xl sm:text-2xl md:text-8xl font-extrabold italic'>Membership</p>
           <h1 className=' md:text-4xl sm:text-2xl text-lg font-bold md:py-4'>Connect with us</h1>
