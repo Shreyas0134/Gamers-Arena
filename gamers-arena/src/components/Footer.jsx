@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <div className=' max-w-[1920px] mx-auto bg-[#600300] '>
       <div className=' max-w-[1240px] mx-auto pt-8  grid lg:grid-cols-3 text-gray-300 '>
-        <div className=''>
-          <img src={logo} alt="" className='  w-32' />
+        <div className=' items-center text-center sm:items-start sm:text-left mx-auto '>
+          <img src={logo} alt="" className='w-32 mx-auto md:mx-0' />
           <p className='py-4 '>Gamers Areana associazione sportiva<br /> dilettantistica<br />
             Sede legale: Viale Campi Elisi, 22 – 34143<br /> Trieste (TS)<br />
             Sede operativa: Modena (MO)<br />
@@ -16,7 +16,7 @@ const Footer = () => {
             C.F.: 90143910322<br />
             P.Iva: 01275990321.</p>
 
-          <div className='flex gap-10 md:w-[75%] my-6 '>
+          <div className='flex gap-10 md:w-[75%] my-3 ml-[50px] sm:ml-0'>
 
             <FaFacebookSquare size={30} />
             <FaInstagram size={30} />

@@ -19,8 +19,8 @@ const Membership = () => {
         </div>
         <div className='max-w-[1240px] mx-auto grid lg:grid-cols-2  p-5'>
 
-          <video src={video} autoPlay muted loop className='p-5 mx-auto' />
-          <div className='  text-sm sm:text-lg md:text-2xl p-5 justify-center text-center flex flex-col '>
+          <video src={video} autoPlay muted loop className='p-5 mx-auto my-auto' />
+          <div className='  text-sm  md:text-2xl p-5  flex  '>
 
             <p>
               The membership card is the means by which a natural person proves to be linked to a sector of a Sports Promotion Agency, as a member of an affiliated association. It allows therefore to participate in all the activities organized by the Sector and by the Associations affiliated to it. The card also demonstrates that the person carries out sporting and/or recreational-recreational activities. The reference year is the solar year: from 1 January to 31 December, therefore, regardless of the date on which the card is obtained, starting from 1 January of the following year it must be renewed.
