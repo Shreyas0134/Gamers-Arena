@@ -1,5 +1,6 @@
 import React from 'react'
 import mem from '../Images/eventpage.jpg'
+import img1 from '../Event Image/s1.jpg'
 
 const EventPage = () => {
   return (
@@ -12,6 +13,34 @@ const EventPage = () => {
         <div className='w-full mx-auto text-center justify-center absolute top-0 mt-[8%] text-white'>
           <p className='text-xl sm:text-2xl md:text-4xl lg:text-8xl font-extrabold italic'>Events.</p>
           <h1 className='md:text-4xl sm:text-2xl text-xl font-bold md:py-16'>Tournaments & Exhibitions</h1>
+        </div>
+      </div>
+      <div className='max-w-[1920px] mx-auto p-10'>
+        <div className='p-3 m-3'>
+          <p className='flex justify-center font-bold text-3xl '>Old Events</p>
+        </div>
+        <div className=' flex flex-col sm:flex-row gap-2 justify-center items-center'>
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <img src={img1} alt="" />
+          <div class="p-5">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Modena Nerd 2019</h5>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto nisi quidem perspiciatis temporibus ipsam..</p>
+          </div>
+        </div>
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <img src={img1} alt="" />
+          <div class="p-5">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Modena Nerd 2019</h5>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto nisi quidem perspiciatis temporibus ipsam..</p>
+          </div>
+        </div>
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <img src={img1} alt="" />
+          <div class="p-5">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Modena Nerd 2019</h5>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto nisi quidem perspiciatis temporibus ipsam..</p>
+          </div>
+        </div>
         </div>
       </div>
     </div>

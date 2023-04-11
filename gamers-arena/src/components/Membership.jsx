@@ -30,7 +30,7 @@ const Membership = () => {
           </div>
         </div>
         <div className='flex justify-center p-5'>
-              <button className='text-white bg-[#600300]  rounded-57 p-4 rounded-[57px] text-sm sm:text-base md:text-2xl font-semibold tracking-widest btn'>
+              <button className='text-white bg-[#600300]  rounded-57 p-4 rounded-[57px] text-sm sm:text-base md:text-2xl font-semibold tracking-widest btn italic btnfont'>
                 Get your membership card now!
               </button>
             </div>
