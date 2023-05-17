@@ -54,6 +54,7 @@ const Home = () => {
                     </div>
 
                 </div>
+                
                 <div className='w-full py-16 bg-[#600300] rounded-xl text-white'>
                     <div className='max-w-[1400px] mx-auto grid md:grid-cols-3'>
                         <div className=' flex flex-col justify-center items-center md:border-r '>

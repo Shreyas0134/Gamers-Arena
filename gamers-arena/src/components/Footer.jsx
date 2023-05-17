@@ -4,6 +4,8 @@ import {  FaFacebookSquare,  FaInstagram, FaTwitterSquare } from 'react-icons/fa
 
 const Footer = () => {
   return (
+  
+    
     <div className=' max-w-[1920px] mx-auto bg-[#600300] '>
       <div className=' max-w-[1240px] mx-auto pt-8  grid lg:grid-cols-3 text-gray-300 '>
         <div className=' items-center text-center sm:items-start sm:text-left mx-auto '>
@@ -76,6 +78,7 @@ const Footer = () => {
         Gamers Arena. All rights reserved.
       </div>
     </div>
+ 
 
 
 
