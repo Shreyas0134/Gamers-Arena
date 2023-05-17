@@ -7,6 +7,7 @@ import Membership from './components/Membership';
 import EventPage from './components/EventPage';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ContactUs from './components/ContactUs';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/membership' element={<Membership />} />
           <Route path='/eventpage'  element={<EventPage/>} />
+          <Route path='/contactus'  element={<ContactUs/>} />
 
         </Routes>
         <Footer />

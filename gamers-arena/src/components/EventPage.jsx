@@ -1,6 +1,14 @@
 import React from 'react'
 import mem from '../Images/eventpage.jpg'
 import img1 from '../Event Image/s1.jpg'
+import img2 from '../Images/s2.jpg'
+import img3 from '../Images/s3.jpg'
+import img4 from '../Images/s4.jpg'
+import img5 from '../Images/s5.jpg'
+import img6 from '../Images/s6.jpg'
+import img7 from '../Images/s7.jpg'
+import img8 from '../Images/s8.jpg'
+
 
 const EventPage = () => {
   return (
@@ -31,7 +39,7 @@ const EventPage = () => {
          {/* first card ends here */}
           {/* second card */}
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow transition-transform duration-300 transform hover:scale-105 ">
-          <img src={img1} alt="" />
+          <img src={img2} alt="" />
           <div class="p-5">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Modena Nerd 2019</h5>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto nisi quidem perspiciatis temporibus ipsam..</p>
@@ -40,7 +48,7 @@ const EventPage = () => {
          {/* second card ends here */}
           {/* third card */}
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow transition-transform duration-300 transform hover:scale-105 ">
-          <img src={img1} alt="" />
+          <img src={img3} alt="" />
           <div class="p-5">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Modena Nerd 2019</h5>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto nisi quidem perspiciatis temporibus ipsam..</p>
@@ -49,7 +57,7 @@ const EventPage = () => {
          {/* third card ends here */}
           {/* forth card */}
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow transition-transform duration-300 transform hover:scale-105 ">
-          <img src={img1} alt="" />
+          <img src={img4} alt="" />
           <div class="p-5">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Modena Nerd 2019</h5>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto nisi quidem perspiciatis temporibus ipsam..</p>
@@ -58,7 +66,7 @@ const EventPage = () => {
          {/* forth card ends here */}
           {/* fifth card */}
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow transition-transform duration-300 transform hover:scale-105 ">
-          <img src={img1} alt="" />
+          <img src={img5} alt="" />
           <div class="p-5">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Modena Nerd 2019</h5>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto nisi quidem perspiciatis temporibus ipsam..</p>
@@ -67,7 +75,7 @@ const EventPage = () => {
          {/* fifth card ends here */}
           {/* sixth card */}
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow transition-transform duration-300 transform hover:scale-105 ">
-          <img src={img1} alt="" />
+          <img src={img6} alt="" />
           <div class="p-5">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Modena Nerd 2019</h5>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto nisi quidem perspiciatis temporibus ipsam..</p>
@@ -76,7 +84,7 @@ const EventPage = () => {
          {/* sixth card ends here */}
           {/* seventh card */}
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow transition-transform duration-300 transform hover:scale-105 ">
-          <img src={img1} alt="" />
+          <img src={img7} alt="" />
           <div class="p-5">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Modena Nerd 2019</h5>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto nisi quidem perspiciatis temporibus ipsam..</p>
@@ -85,7 +93,7 @@ const EventPage = () => {
          {/* seventh card ends here */}
           {/* Eighth card */}
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow transition-transform duration-300 transform hover:scale-105 ">
-          <img src={img1} alt="" />
+          <img src={img8} alt="" />
           <div class="p-5">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Modena Nerd 2019</h5>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto nisi quidem perspiciatis temporibus ipsam..</p>

@@ -29,7 +29,9 @@ const NavBar = () => {
                     <Link to='/eventpage'>Event</Link>
                 </li>
                 <li className='p-4'>Products</li>
-                <li className='p-4'>Contact Us</li>
+                <li className='p-4'>
+                    <Link to='/contactus'>Contact Us</Link>
+                </li>
             </ul>
             <div className='block md:hidden ease-in-out' onClick={toggle}>
                 {!nav ? <AiOutlineMenu size={30} /> : <AiOutlineClose size={30} />}
@@ -42,7 +44,9 @@ const NavBar = () => {
                     <li className='p-4 border-b'> <Link to='/membership'>Membership</Link></li>
                     <li className='p-4 border-b'> <Link to='/eventpage'>Event</Link></li>
                     <li className='p-4 border-b'>Products</li>
-                    <li className='p-4 border-b'>Contact Us</li>
+                    <li className='p-4 border-b'>
+                    <Link to='/contactus'>Contact Us</Link>
+                </li>
                 </ul>
             </div>
         </div>
