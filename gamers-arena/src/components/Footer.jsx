@@ -72,7 +72,7 @@ const Footer = () => {
 
 
       </div>
-      <div className=' text-right text-white'>
+      <div className=' text-right text-white mx-auto'>
         &copy;
         2023 -
         Gamers Arena. All rights reserved.
